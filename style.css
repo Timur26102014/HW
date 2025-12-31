@@ -1,0 +1,29 @@
+.bg-box {
+  width: 1000px;
+  height: 600px;
+
+  background:
+    /* лампочки зверху */
+    url("https://www.freeiconspng.com/uploads/lamp-png-0.png") repeat-x top center / 60px,
+
+    /* їжачки зліва */
+    url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru")
+    repeat-y left center / 50px,
+
+    /* їжачки справа */
+    url("https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png")
+    repeat-y right center / 50px,
+
+    /* трава знизу */
+    url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png")
+    repeat-x bottom center / 300px,
+
+    /* центральне фото */
+    url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg")
+    no-repeat center / 500px 300px,
+
+    /* зелений фон */
+    green;
+
+  border: 10px solid green;
+}
